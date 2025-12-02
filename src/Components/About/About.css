@@ -1,0 +1,137 @@
+/* MAIN ABOUT SECTION */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 10%;
+}
+
+/* TITLE */
+.about-title h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: linear-gradient(260deg, #df8908 -5.09%, #b415ff);
+}
+
+/* LEFT + RIGHT CONTENT */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+}
+
+.about-left {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f4e4e4;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-para span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #f4e4e4;
+}
+
+/* SKILLS LIST */
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.skill-item {
+  padding: 12px 18px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #334155;
+  border-left: 5px solid #2d6cdf;
+  transition: 0.3s ease;
+}
+
+.skill-item:hover {
+  background: #e2e8f0;
+  transform: translateX(8px);
+}
+
+/* ACHIEVEMENTS SECTION */
+.about-achivements {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.achivement-item {
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.achivement-item:hover {
+  transform: translateY(-8px);
+}
+
+.achivement-item h2 {
+  font-size: 45px;
+  font-weight: 700;
+  background: linear-gradient(260deg, #df8908 -5.09%, #b415ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.achivement-item p {
+  font-size: 18px;
+  color: #475569;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .about {
+    padding: 60px 5%;
+    gap: 60px;
+  }
+
+  .about-title h1 {
+    font-size: 45px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-left,
+  .about-right {
+    flex: unset;
+  }
+
+  .skill-item {
+    text-align: center;
+  }
+
+  .about-achivements {
+    gap: 30px;
+  }
+
+  .achivement-item h2 {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,204 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+
+.contact-title {
+  position: relative;
+}
+
+.contact-title h3 {
+  font-size: 80px;
+  font-weight: 600;
+
+  padding: 0px 30px;
+}
+
+.contact-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.mail-icon {
+  width: 25px;
+  height: 25px;
+}
+.contact-section {
+  display: flex;
+  gap: 150px;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-left h3 {
+  font-size: 50px;
+  font-weight: 700;
+  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-left p {
+  font-size: 20px;
+
+  line-height: 35px;
+  max-width: 550px;
+  color: white;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  font-size: 22px;
+}
+
+.contat-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+
+.contact-right label {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+}
+
+.contact-right input {
+  width: 700px;
+  height: 78px;
+  background: white;
+  border: none;
+  padding-left: 20px;
+  border-radius: 4px;
+  font-family: Outfit;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  resize: none;
+  color: black;
+}
+
+.contact-right textarea {
+  width: 680px;
+  border-radius: 4px;
+  padding: 25px;
+  border: 3px;
+  background: white;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.contact-submit {
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  font-size: 22px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 20px 60px;
+}
+
+.contact-submit:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.btn-submit {
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  font-size: 22px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 15px 50px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-icon {
+  font-size: 22px;
+  color: #d4def1;
+  transition: 0.3s ease;
+}
+
+.icon-link a {
+  text-decoration: none;
+  color: #dfe7f5;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.icon-link:hover a {
+  color: #00c9ff;
+}
+
+.icon-link:hover .social-icon {
+  color: #00c9ff;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    margin: 50px 30px;
+    gap: 50px;
+  }
+
+  .contact-title h1 {
+    font-size: 50px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .contact-left h1 {
+    font-size: 50px;
+  }
+
+  .contact-left p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .contact-right input {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .contact-right textarea {
+    width: 100%;
+    font-size: 18px;
+  }
+}
