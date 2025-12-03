@@ -17,16 +17,13 @@ function Hero() {
         </h1>
 
         <p>
-          Driven Software Engineer with a strong foundation in full-stack
-          development and hands-on experience in agile methodologies. Skilled in
-          designing, developing, and optimizing scalable applications while
-          ensuring code quality and performance. Holds an MSc in Information
-          Technology and a BSc in Information Systems. Proficient in Angular and
-          React, with the ability to adapt quickly to emerging technologies.I am
-          a dedicated Software Engineer with hands-on experience in building
-          responsive, scalable web applications. I hold an MSc in Information
-          Technology from Bharathiar University, India, and a BSc in Information
-          Systems from University of Colombo, Sri Lanka.
+          Driven and dedicated Software Engineer with a solid foundation in
+          full-stack development and hands-on experience in agile methodologies.
+          Skilled in designing, developing, and optimizing scalable web
+          applications while ensuring high code quality, performance, and clean
+          maintainable code. I hold an MSc in Information Technology from
+          Bharathiar University, India, and a BSc in Information Systems from
+          the University of Colombo, Sri Lanka.
         </p>
 
         <div className="hero-action">

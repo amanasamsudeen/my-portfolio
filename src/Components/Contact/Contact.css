@@ -42,7 +42,11 @@
 .contact-left h3 {
   font-size: 50px;
   font-weight: 700;
-  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  background: linear-gradient(
+    260deg,
+    rgba(223, 137, 8, 0.6) -5.09%,
+    rgba(180, 21, 255, 0.6)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -114,7 +118,11 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  background: linear-gradient(
+    260deg,
+    rgba(223, 137, 8, 0.9) -5.09%,
+    rgba(180, 21, 255, 0.9)
+  );
   font-size: 22px;
   margin-bottom: 50px;
   cursor: pointer;
@@ -131,7 +139,11 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  background: linear-gradient(
+    260deg,
+    rgba(223, 137, 8) -5.09%,
+    rgba(180, 21, 255)
+  );
   font-size: 22px;
   margin-top: 20px;
   cursor: pointer;

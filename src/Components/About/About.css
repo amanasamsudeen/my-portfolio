@@ -5,21 +5,25 @@
   align-items: center;
   gap: 80px;
   padding: 80px 10%;
+  /* width: 100%; */
 }
 
 /* TITLE */
 .about-title h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   text-align: center;
-  color: linear-gradient(260deg, #df8908 -5.09%, #b415ff);
+  padding: 0 20px;
+
+  background: linear-gradient(260deg, #df8908 -5.09%, #b415ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* LEFT + RIGHT CONTENT */
 .about-section {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   gap: 50px;
   width: 100%;
 }
@@ -29,6 +33,9 @@
   font-size: 18px;
   line-height: 1.8;
   color: #f4e4e4;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .about-right {
@@ -74,13 +81,15 @@
   justify-content: space-around;
   margin-top: 40px;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .achivement-item {
   text-align: center;
-  padding: 20px 30px;
+  padding: 25px 35px;
   border-radius: 12px;
   transition: 0.3s ease;
+  min-width: 220px;
 }
 
 .achivement-item:hover {
@@ -90,22 +99,26 @@
 .achivement-item h2 {
   font-size: 45px;
   font-weight: 700;
-  background: linear-gradient(260deg, #df8908 -5.09%, #b415ff);
+  background: linear-gradient(
+    260deg,
+    rgba(223, 137, 8, 0.9) -5.09%,
+    rgba(180, 21, 255, 0.9)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .achivement-item p {
   font-size: 18px;
-  color: #475569;
+  color: #cbd5e1;
   margin-top: 5px;
   font-weight: 500;
 }
 
-/* RESPONSIVE */
+/* TABLET (900px) */
 @media (max-width: 900px) {
   .about {
-    padding: 60px 5%;
+    padding: 60px 6%;
     gap: 60px;
   }
 
@@ -116,22 +129,59 @@
   .about-section {
     flex-direction: column;
     text-align: center;
-  }
-
-  .about-left,
-  .about-right {
-    flex: unset;
+    gap: 40px;
   }
 
   .skill-item {
     text-align: center;
   }
 
+  .achivement-item h2 {
+    font-size: 38px;
+  }
+}
+
+/* MOBILE (600px) */
+@media (max-width: 600px) {
+  .about-title h1 {
+    font-size: 36px;
+  }
+
+  .about-left {
+    font-size: 16px;
+  }
+
+  .skill-item {
+    font-size: 15px;
+    padding: 10px 14px;
+  }
+
   .about-achivements {
-    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .achivement-item {
+    /* width: 100%; */
+    max-width: 280px;
+  }
+}
+
+/* EXTRA SMALL MOBILE (380px) */
+@media (max-width: 380px) {
+  .about-title h1 {
+    font-size: 30px;
+  }
+
+  .skill-item {
+    font-size: 14px;
   }
 
   .achivement-item h2 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+
+  .achivement-item p {
+    font-size: 15px;
   }
 }
