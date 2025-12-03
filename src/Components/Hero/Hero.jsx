@@ -32,15 +32,16 @@ function Hero() {
               Connect with Me
             </AnchorLink>
           </div>
-
-          <a
-            href="/resume.pdf"
-            download="Amana_Samsudeen_Resume.pdf"
-            className="hero-resume"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            See My Resume
-          </a>
+          <div>
+            <a
+              href="/resume.pdf"
+              download="Amana_Samsudeen_Resume.pdf"
+              className="hero-resume"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              See My Resume
+            </a>
+          </div>
         </div>
       </div>
     </div>

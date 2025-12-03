@@ -5,19 +5,14 @@
   align-items: center;
   gap: 80px;
   padding: 80px 10%;
-  /* width: 100%; */
 }
 
 /* TITLE */
 .about-title h1 {
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
   padding: 0 20px;
-
-  background: linear-gradient(260deg, #df8908 -5.09%, #b415ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* LEFT + RIGHT CONTENT */
